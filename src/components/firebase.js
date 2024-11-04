@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDLRwrlfwKJ6j5DxLzayNngn14R3bf6tLg",
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
   authDomain: "craftorium-ceb22.firebaseapp.com",
   projectId: "craftorium-ceb22",
   storageBucket: "craftorium-ceb22.appspot.com",
